@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --snitap-sun: #ffcd1e;
+  --snitap-sky-mid: #06b6d4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16A34A;
+
+  --text: #000000;
+  --highlights: #000000;
+  --background: #FAFAFA;
+
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-syne: "Syne", sans-serif;
+
+  --fs-small: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 2.5rem;
+  --fs-xlg: 4rem;
+
+  --fw-md: 600;
+  --fw-bold: 700;
+
+  --h1: var(--fw-bold) var(--fs-xlg)/ 1.25 var(--ff-syne);
+  --h2: var(--fw-bold) var(--fs-lg) / 1.20 var(--ff-syne);
+
+  --btn: var(--fw-md) var(--fs-base) / 1.5 var(--ff-montserrat);
+  --span: var(--fw-md) var(--fs-small) / 1.5 var(--ff-montserrat);
+}
+
+html, button{
+    font: var(--btn);
+    color: var(--text);
+}
+
+body{
+    background-color: var(--background);
+}
+
+h1{
+    font: var(--h1);
+} 
+
+h2{
+  font: var(--h2);
+} 
+
+
+
+
